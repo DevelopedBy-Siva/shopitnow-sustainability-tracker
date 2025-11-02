@@ -4,6 +4,7 @@ from models import db
 from routes.carbon import carbon_bp
 from routes.user_tracking import user_bp
 from routes.recommend import recommend_bp
+from routes.summary import summary_bp
 
 
 def create_app():
@@ -14,6 +15,7 @@ def create_app():
     app.register_blueprint(carbon_bp, url_prefix="/api/sustainability")
     app.register_blueprint(user_bp, url_prefix="/api/sustainability")
     app.register_blueprint(recommend_bp, url_prefix="/api/sustainability")
+    app.register_blueprint(summary_bp, url_prefix="/api/sustainability")
     return app
 
 
