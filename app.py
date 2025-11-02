@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from config import Config
 from models import db
 from routes.carbon import carbon_bp
@@ -9,6 +10,7 @@ from routes.summary import summary_bp
 
 def create_app():
     app = Flask(__name__)
+    # CORS(app, resources={r"/*": {"origins": "https://shopit-now-client.vercel.app"}})
     app.config.from_object(Config)
     db.init_app(app)
 
