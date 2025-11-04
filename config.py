@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     SQLALCHEMY_DATABASE_URI = os.getenv(
-        "DB_URL", "postgresql://postgres:sivaSIVA%4012@localhost:5432/sustainify"
+        "DB_URL", "postgresql://postgres:sivaSIVA%4012@localhost:5432/shopit-now"
     )
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
