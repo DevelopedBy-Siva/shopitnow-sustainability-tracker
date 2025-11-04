@@ -1,9 +1,46 @@
-# routes/recommend.py
+# recommend_service.py
 from flask import Blueprint, request, jsonify
-from models import SustainProduct
-from utils.encoder import product_to_vector, cosine_sim
+from models import Product
+import pandas as pd
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics.pairwise import cosine_similarity
 
 recommend_bp = Blueprint("recommend", __name__)
+
+
+def build_embeddings(products):
+    df = pd.DataFrame(
+        [
+            {
+                "product_id": p.product_id,
+                "name": p.name,
+                "category": getattr(p, "category", ""),
+                "material": p.material,
+                "weight_kg": p.weight_kg,
+                "emission_factor": p.emission_factor,
+                "eco_score": p.eco_score,
+            }
+            for p in products
+        ]
+    )
+
+    tfidf = TfidfVectorizer(max_features=100)
+    df["text"] = (
+        df["name"].fillna("")
+        + " "
+        + df["material"].fillna("")
+        + " "
+        + df["category"].fillna("")
+    )
+    text_vecs = tfidf.fit_transform(df["text"]).toarray()
+
+    scaler = MinMaxScaler()
+    num_vecs = scaler.fit_transform(df[["eco_score", "emission_factor", "weight_kg"]])
+
+    X = np.hstack([text_vecs, num_vecs])
+    return df, X
 
 
 @recommend_bp.route("/recommend/eco", methods=["GET"])
@@ -12,65 +49,49 @@ def recommend_eco():
     k = int(request.args.get("k", 5))
 
     if not product_id:
-        return jsonify({"error": "productId required"}), 400
+        return jsonify({"error": "Missing productId"}), 400
 
-    base = SustainProduct.query.filter_by(product_id=product_id).first()
-    if not base:
-        return jsonify({"error": "Product not found"}), 404
+    products = Product.query.all()
+    if not products:
+        return jsonify({"error": "No products found"}), 404
 
-    base_vec = product_to_vector(
-        base.material, base.weight_kg, base.emission_factor, base.eco_score
-    )
+    df, X = build_embeddings(products)
+    ids = df["product_id"].tolist()
+    if product_id not in ids:
+        return jsonify({"error": f"Product {product_id} not found"}), 404
 
-    candidates = SustainProduct.query.filter(
-        SustainProduct.product_id != product_id
-    ).all()
-    scored = []
+    base_idx = ids.index(product_id)
+    base = df.iloc[base_idx]
+    base_vec = X[base_idx].reshape(1, -1)
 
-    for p in candidates:
-        vec = product_to_vector(p.material, p.weight_kg, p.emission_factor, p.eco_score)
-        sim = cosine_sim(base_vec, vec)
+    sims = cosine_similarity(base_vec, X).flatten()
 
-        eco_bonus = (p.eco_score / 10.0) - (p.emission_factor / 20.0)
-        final_score = sim + 0.25 * eco_bonus
+    df["similarity"] = sims
+    df["eco_diff"] = df["eco_score"] - base["eco_score"]
+    df["eco_benefit"] = (0.6 * df["similarity"]) + (0.4 * df["eco_diff"] / 10)
 
-        scored.append(
-            {
-                "product_id": p.product_id,
-                "name": p.name,
-                "material": p.material,
-                "weight_kg": p.weight_kg,
-                "emission_factor": p.emission_factor,
-                "eco_score": p.eco_score,
-                "score": round(final_score, 4),
-            }
-        )
-
-    greener = [
-        s
-        for s in scored
-        if s["eco_score"] > base.eco_score
-        or s["emission_factor"] < base.emission_factor
-    ]
-    primary = sorted(greener, key=lambda x: x["score"], reverse=True)[:k]
-
-    if len(primary) < k:
-        remaining = sorted(scored, key=lambda x: x["score"], reverse=True)
-        chosen_ids = {x["product_id"] for x in primary}
-        for cand in remaining:
-            if len(primary) >= k:
-                break
-            if cand["product_id"] not in chosen_ids:
-                primary.append(cand)
+    mask = (df["eco_score"] > base["eco_score"]) & (df["product_id"] != product_id)
+    recs = df[mask].sort_values(by="eco_benefit", ascending=False).head(k)
 
     return jsonify(
         {
             "base_product": {
-                "product_id": base.product_id,
-                "name": base.name,
-                "eco_score": base.eco_score,
-                "emission_factor": base.emission_factor,
+                "product_id": base["product_id"],
+                "name": base["name"],
+                "eco_score": float(base["eco_score"]),
+                "emission_factor": float(base["emission_factor"]),
             },
-            "recommendations": primary[:k],
+            "recommendations": [
+                {
+                    "product_id": r["product_id"],
+                    "name": r["name"],
+                    "material": r["material"],
+                    "eco_score": float(r["eco_score"]),
+                    "emission_factor": float(r["emission_factor"]),
+                    "weight_kg": float(r["weight_kg"]),
+                    "score": round(float(r["eco_benefit"]), 4),
+                }
+                for _, r in recs.iterrows()
+            ],
         }
     )

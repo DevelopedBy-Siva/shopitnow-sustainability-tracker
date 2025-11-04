@@ -3,15 +3,16 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-class SustainProduct(db.Model):
-    __tablename__ = "sustain_products"
+class Product(db.Model):
+    __tablename__ = "product"
     product_id = db.Column(db.String(50), primary_key=True)
-    name = db.Column(db.String(100))
-    material = db.Column(db.String(50))
+    title = db.Column(db.String(200))
+    category = db.Column(db.String(100))
+    material = db.Column(db.String(100))
     weight_kg = db.Column(db.Float)
     emission_factor = db.Column(db.Float)
+    eco_score = db.Column(db.Float)
     origin_location = db.Column(db.String(100))
-    eco_score = db.Column(db.Integer, default=5)
 
 
 class SustainOrder(db.Model):
