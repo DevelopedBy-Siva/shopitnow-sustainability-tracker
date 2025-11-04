@@ -14,7 +14,7 @@ def impact_tag(score):
     return "red"
 
 
-@insight_bp.route("/api/sustainability/insight", methods=["GET"])
+@insight_bp.route("/insight", methods=["GET"])
 def get_product_insight():
     product_id = request.args.get("productId")
     if not product_id:
@@ -34,7 +34,7 @@ def get_product_insight():
     tag = impact_tag(p.eco_score)
 
     msg = (
-        f"🪴 This product emits {co2:.2f} kg CO₂ per 100 km shipped — "
+        f"This product emits {co2:.2f} kg CO₂ per 100 km shipped — "
         f"{abs(diff):.1f}% {'cleaner' if diff>0 else 'higher'} than average. "
         + (
             "🌱 Eco-conscious choice!"
