@@ -34,8 +34,8 @@ def get_product_insight():
     tag = impact_tag(p.eco_score)
 
     msg = (
-        f"This product emits {co2:.2f} kg CO₂ per 100 km shipped — "
-        f"{abs(diff):.1f}% {'cleaner' if diff>0 else 'higher'} than average. "
+        f"This product emits <b>{co2:.2f} kg</b> CO₂ per 100 km shipped — "
+        f"<b>{abs(diff):.1f}%</b> {'cleaner' if diff>0 else 'higher'} than average. "
         + (
             "🌱 Eco-conscious choice!"
             if diff > 0

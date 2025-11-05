@@ -5,7 +5,7 @@ from utils.calculator import estimate_emission, calculate_savings
 cart_bp = Blueprint("cart", __name__)
 
 
-@cart_bp.route("/api/sustainability/cart-insight", methods=["POST"])
+@cart_bp.route("/cart-insight", methods=["POST"])
 def cart_insight():
     data = request.get_json()
     items = data.get("cart_items", [])
@@ -40,6 +40,6 @@ def cart_insight():
         {
             "total_cart_co2_kg": round(total_co2, 2),
             "potential_savings_kg": round(total_save, 2),
-            "impact_message": f"🛒 Your cart emits ~{round(total_co2,2)} kg CO₂. Switching to eco items can save {round(total_save,2)} kg 🌍",
+            "impact_message": f"Your cart emits ~{round(total_co2,2)} kg CO₂. Switching to eco items can save {round(total_save,2)} kg 🌍",
         }
     )

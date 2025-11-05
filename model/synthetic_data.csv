@@ -1,216 +1,305 @@
 title,category,material,weight,price,origin_location,eco_score,emission_factor
-apple iphone 15 pro,mobiles,"aluminum, glass",0.19,999.0,cupertino,6.6,6.6
-samsung galaxy s24 ultra,mobiles,"aluminum, recycled plastic, glass",0.23,1199.0,san jose,6.4,6.2
-google pixel 8 pro,mobiles,"recycled plastic, glass",0.21,999.0,mountain view,6.5,5.35
-dell xps 13,laptops,"aluminum, carbon fiber",1.2,1199.0,austin,5.0,8.5
-apple macbook air m3,laptops,"aluminum, glass",1.24,1299.0,cupertino,6.5,6.6
-hp spectre x360,laptops,"aluminum, recycled plastic",1.4,1299.0,boston,6.0,6.75
-patagonia better sweater,fashion,recycled polyester (rpet),0.7,129.0,denver,6.0,3.8
-levi’s 511 jeans,fashion,regular cotton,0.6,89.0,san francisco,7.0,3.8
+apple iphone 16 pro,mobiles,"aluminum, glass",0.199,1099.0,cupertino,6.6,6.6
+samsung galaxy s25 ultra,mobiles,"aluminum, recycled plastic, glass",0.232,1299.0,suwon,6.37,6.27
+google pixel 9 pro,mobiles,"recycled plastic, glass",0.213,999.0,mountain view,6.5,5.35
+oneplus 13,mobiles,"aluminum, glass, magnesium alloy",0.21,899.0,shenzhen,5.83,7.17
+xiaomi 15 pro,mobiles,"stainless steel, glass",0.218,849.0,beijing,6.6,6.8
+fairphone 5,mobiles,"recycled plastic, aluminum, bioplastic (pla)",0.212,649.0,amsterdam,7.5,4.5
+sony xperia 1 vi,mobiles,"aluminum, glass",0.192,1199.0,tokyo,6.6,6.6
+nothing phone (3),mobiles,"aluminum, recycled plastic",0.201,649.0,london,6.5,5.5
+motorola razr 50 ultra,mobiles,"aluminum, plastic (abs, polycarbonate)",0.188,999.0,chicago,4.65,8.8
+asus rog phone 9,mobiles,"aluminum, carbon fiber, glass",0.239,1199.0,taipei,5.07,8.4
+nokia xr21,mobiles,"recycled plastic, stainless steel",0.231,599.0,espoo,6.65,6.15
+vivo x200 pro,mobiles,"aluminum, glass",0.196,949.0,dongguan,6.6,6.6
+oppo find x8 ultra,mobiles,"aluminum, vegan leather (pu, pineapple, etc.)",0.219,1099.0,dongguan,6.25,6.75
+huawei mate 70 pro,mobiles,"aluminum, glass",0.209,1099.0,shenzhen,6.6,6.6
+lenovo legion phone duel 3,mobiles,"aluminum, carbon fiber",0.259,899.0,beijing,4.7,8.7
+apple macbook pro 14 m4,laptops,aluminum,1.55,1599.0,cupertino,6.0,8.0
+dell xps 14 9440,laptops,"aluminum, carbon fiber",1.68,1899.0,austin,5.0,8.5
+hp spectre x360 14,laptops,"aluminum, recycled plastic",1.36,1399.0,palo alto,6.0,6.75
+lenovo thinkpad x1 carbon gen 12,laptops,"carbon fiber, magnesium alloy",1.09,1799.0,morrisville,4.75,8.75
+"microsoft surface laptop 7 15""",laptops,"aluminum, recycled plastic",1.66,1499.0,redmond,6.0,6.75
+asus zenbook 14 oled um3406,laptops,"aluminum, bioplastic (pla)",1.29,1099.0,taipei,7.0,5.0
+acer swift go 14,laptops,"plastic (abs, polycarbonate)",1.32,749.0,taipei,3.0,10.0
+framework laptop 16,laptops,"aluminum, recycled plastic",2.0,1399.0,san francisco,6.5,5.5
+razer blade 16,laptops,"aluminum, carbon fiber",2.45,2799.0,irvine,4.5,9.0
+lg gram 17 2025,laptops,magnesium alloy,1.35,1599.0,seoul,5.0,7.5
+samsung galaxy book5 pro 360,laptops,"aluminum, recycled plastic",1.48,1499.0,suwon,6.0,6.75
+apple macbook air 15 m3,laptops,aluminum,1.51,1299.0,cupertino,6.0,8.0
+huawei matebook x pro 2025,laptops,"magnesium alloy, aluminum",0.98,1599.0,shenzhen,5.5,7.25
+patagonia nano puff jacket,fashion,recycled polyester (rpet),0.37,249.0,ventura,6.0,3.8
+levi’s 501 original jeans,fashion,regular cotton,0.65,69.0,san francisco,7.0,3.8
+allbirds wool runner mizzles,fashion,wool,0.48,135.0,san francisco,6.0,4.8
+nike air force 1,fashion,"leather, rubber (synthetic)",0.52,110.0,beaverton,5.4,7.2
+adidas stan smith,fashion,"recycled polyester (rpet), vegan leather (pu, pineapple, etc.)",0.44,100.0,hamburg,6.5,4.15
+the north face thermoball jacket,fashion,recycled polyester (rpet),0.42,220.0,san francisco,6.0,3.8
+h&m organic cotton t-shirt,fashion,organic cotton,0.18,12.0,stockholm,9.0,2.0
+zara linen blend shirt,fashion,linen (flax),0.28,45.0,madrid,8.0,2.2
+gucci ace sneakers,fashion,leather,0.78,790.0,milan,5.0,8.0
+everlane the track jogger,fashion,recycled polyester (rpet),0.41,78.0,san francisco,6.0,3.8
+lululemon wunder train leggings,fashion,polyester,0.32,128.0,vancouver,4.0,6.5
+reformation silk dress,fashion,silk,0.35,298.0,los angeles,6.0,3.5
+tentree bamboo hoodie,fashion,"bamboo fiber, organic cotton",0.55,68.0,vancouver,9.0,2.25
+birkenstock arizona eva,fashion,bioplastic (pla),0.38,50.0,neustadt,8.0,3.5
+veja campo sneakers,fashion,"organic cotton, vegan leather (pu, pineapple, etc.)",0.49,150.0,paris,7.5,3.25
+arcteryx beta ar jacket,fashion,"recycled polyester (rpet), polyester",0.48,600.0,vancouver,5.0,5.15
+lego duplo number train,kids & baby,recycled plastic,1.1,29.0,billund,6.0,5.0
+green toys seaplane,kids & baby,recycled plastic,0.45,18.0,san francisco,6.0,5.0
+melissa & doug wooden puzzle,kids & baby,wood,0.68,15.0,denver,8.0,2.5
+playmobil family camper,kids & baby,"plastic (abs, polycarbonate)",1.45,69.0,zirndorf,3.0,10.0
+fisher-price little people farm,kids & baby,"plastic (abs, polycarbonate), silicone",1.2,44.0,east aurora,5.0,7.0
+plan toys wooden dollhouse,kids & baby,"wood, fabric composite",4.5,149.0,bangkok,6.5,3.75
+haba my first ball track,kids & baby,wood,1.8,89.0,bad rodenbach,8.0,2.5
+lovevery the realist set,kids & baby,"organic cotton, wood",1.9,120.0,bozeman,8.5,2.25
+manhattan toy tree top adventure,kids & baby,"wood, fabric composite",2.2,99.0,minneapolis,7.0,3.75
+vtech toot-toot drivers,kids & baby,"plastic (abs, polycarbonate)",0.78,32.0,hong kong,3.0,10.0
+skip hop explore & more gym,kids & baby,"polypropylene (pp), organic cotton",2.1,79.0,new york,6.5,4.0
+baby einstein discovery seas,kids & baby,"recycled plastic, silicone",0.65,39.0,atlanta,6.5,4.75
+dyson v15 detect,appliances,"aluminum, plastic (abs, pvc)",3.08,699.0,malmesbury,4.5,9.0
+ninja foodi max,appliances,"stainless steel, recycled plastic",5.2,199.0,needham,6.65,6.15
+instant pot pro crisp,appliances,"stainless steel, plastic (abs, pvc)",6.3,169.0,boston,5.0,8.4
+breville smart oven air fryer,appliances,"stainless steel, ceramic",11.2,349.0,sydney,7.4,5.6
+philips 4300 lattego,appliances,"plastic (abs, pvc), stainless steel",7.6,799.0,amsterdam,4.35,9.2
+smeg retro kettle,appliances,"stainless steel, plastic (abs, pvc)",1.7,199.0,guastalla,5.0,8.4
+le creuset dutch oven 5.3l,appliances,ceramic,5.5,380.0,fresnoy-le-grand,8.0,4.0
+zwilling air fryer,appliances,"stainless steel, ceramic",4.8,149.0,solingen,7.4,5.6
+nespresso vertuo next,appliances,recycled plastic,1.4,159.0,lausanne,6.0,5.5
+balmuuda the toaster,appliances,"stainless steel, glass",4.2,299.0,tokyo,6.5,6.9
+vitamix explrian e310,appliances,"plastic (abs, pvc), stainless steel",5.2,349.0,cleveland,5.0,8.4
+delonghi dedica espresso,appliances,"stainless steel, aluminum",4.2,249.0,milan,6.5,7.4
+shark navigator vacuum,appliances,"plastic (abs, pvc), recycled plastic",6.1,199.0,needham,4.75,8.25
+bissell little green,appliances,"recycled plastic, polypropylene (pp)",4.4,129.0,grand rapids,5.0,5.75
+miele complete c3,appliances,"plastic (abs, pvc)",5.4,399.0,gütersloh,3.0,10.0
+irobot roomba j7+,appliances,"plastic (abs, pvc), recycled plastic",3.4,799.0,bedford,4.75,8.25
+ecovacs deebot x2 omni,appliances,"plastic (abs, pvc), silicone",5.6,1099.0,suzhou,3.5,9.0
+patagonia better sweater,fashion,recycled polyester (rpet),0.7,139.0,ventura,6.0,3.8
+levi’s 511 slim jeans,fashion,regular cotton,0.6,89.0,san francisco,7.0,3.8
 allbirds tree runners,fashion,hemp,0.5,98.0,san francisco,10.0,1.9
-lego classic bricks box,kids & baby,recycled plastic,1.8,49.0,los angeles,6.0,5.0
-green toys dump truck,kids & baby,recycled plastic,1.2,34.0,san diego,6.0,5.0
-melissa & doug wooden blocks,kids & baby,wood,2.5,49.0,denver,8.0,2.5
-dyson purifier cool tp09,appliances,"aluminum, plastic (abs, pvc)",4.5,549.0,chicago,4.5,9.0
-ninja air fryer max xl,appliances,"recycled plastic, stainless steel",5.0,139.0,seattle,6.5,6.15
-instant pot duo,appliances,"stainless steel, plastic (abs, pvc)",4.2,129.0,boston,5.0,8.4
-google pixel 8 pro variant 0,mobiles,"recycled plastic, glass",0.17,1201.98,mountain view,6.16,4.96
-patagonia better sweater variant 1,fashion,recycled polyester (rpet),0.6,101.62,denver,6.4,3.47
-apple iphone 15 pro variant 2,mobiles,"aluminum, glass",0.16,1294.39,cupertino,6.2,6.99
-apple iphone 15 pro variant 3,mobiles,"aluminum, glass",0.19,763.67,cupertino,6.97,6.92
-dell xps 13 variant 4,laptops,"aluminum, carbon fiber",1.09,956.02,austin,5.2,8.07
-levi’s 511 jeans variant 5,fashion,regular cotton,0.62,114.08,san francisco,6.92,3.75
-levi’s 511 jeans variant 6,fashion,regular cotton,0.61,87.33,san francisco,6.66,3.44
-google pixel 8 pro variant 7,mobiles,"recycled plastic, glass",0.2,787.5,mountain view,6.95,5.64
-apple macbook air m3 variant 8,laptops,"aluminum, glass",1.05,1615.05,cupertino,6.07,6.55
-levi’s 511 jeans variant 9,fashion,regular cotton,0.71,73.63,san francisco,7.42,3.54
-lego classic bricks box variant 10,kids & baby,recycled plastic,1.6,48.03,los angeles,6.02,5.11
-dell xps 13 variant 11,laptops,"aluminum, carbon fiber",1.08,1496.94,austin,5.49,8.09
-dell xps 13 variant 12,laptops,"aluminum, carbon fiber",1.4,1173.71,austin,5.47,8.67
-instant pot duo variant 13,appliances,"stainless steel, plastic (abs, pvc)",4.66,138.07,boston,5.42,8.13
-apple macbook air m3 variant 14,laptops,"aluminum, glass",1.4,1535.71,cupertino,6.34,6.31
-green toys dump truck variant 15,kids & baby,recycled plastic,1.28,30.53,san diego,5.74,5.02
-apple iphone 15 pro variant 16,mobiles,"aluminum, glass",0.21,1270.32,cupertino,6.1,6.45
-apple macbook air m3 variant 17,laptops,"aluminum, glass",1.23,1058.03,cupertino,6.78,6.43
-lego classic bricks box variant 18,kids & baby,recycled plastic,1.94,43.62,los angeles,6.04,5.35
-apple iphone 15 pro variant 19,mobiles,"aluminum, glass",0.23,1061.29,cupertino,6.13,6.37
-google pixel 8 pro variant 20,mobiles,"recycled plastic, glass",0.17,1281.35,mountain view,6.12,5.15
-green toys dump truck variant 21,kids & baby,recycled plastic,1.3,33.17,san diego,5.93,5.22
-melissa & doug wooden blocks variant 22,kids & baby,wood,2.95,63.29,denver,8.34,2.68
-lego classic bricks box variant 23,kids & baby,recycled plastic,1.45,43.47,los angeles,6.27,4.99
-lego classic bricks box variant 24,kids & baby,recycled plastic,1.54,52.48,los angeles,5.97,4.58
-levi’s 511 jeans variant 25,fashion,regular cotton,0.56,90.99,san francisco,7.43,4.09
-allbirds tree runners variant 26,fashion,hemp,0.5,118.78,san francisco,10.14,1.94
-allbirds tree runners variant 27,fashion,hemp,0.44,99.7,san francisco,10.25,1.71
-dell xps 13 variant 28,laptops,"aluminum, carbon fiber",0.97,1182.06,austin,4.96,8.23
-green toys dump truck variant 29,kids & baby,recycled plastic,1.3,27.96,san diego,6.37,5.09
-ninja air fryer max xl variant 30,appliances,"recycled plastic, stainless steel",4.05,113.38,seattle,6.25,6.44
-ninja air fryer max xl variant 31,appliances,"recycled plastic, stainless steel",4.36,109.2,seattle,6.3,5.81
-allbirds tree runners variant 32,fashion,hemp,0.49,126.08,san francisco,10.03,1.85
-patagonia better sweater variant 33,fashion,recycled polyester (rpet),0.84,130.32,denver,5.87,4.1
-hp spectre x360 variant 34,laptops,"aluminum, recycled plastic",1.55,1278.27,boston,6.19,7.21
-hp spectre x360 variant 35,laptops,"aluminum, recycled plastic",1.34,1114.53,boston,6.33,6.69
-google pixel 8 pro variant 36,mobiles,"recycled plastic, glass",0.23,732.22,mountain view,6.36,5.19
-samsung galaxy s24 ultra variant 37,mobiles,"aluminum, recycled plastic, glass",0.21,976.52,san jose,6.19,6.02
-instant pot duo variant 38,appliances,"stainless steel, plastic (abs, pvc)",4.84,143.09,boston,5.1,8.3
-samsung galaxy s24 ultra variant 39,mobiles,"aluminum, recycled plastic, glass",0.25,1405.2,san jose,6.38,5.95
-patagonia better sweater variant 40,fashion,recycled polyester (rpet),0.72,104.59,denver,5.7,4.28
-instant pot duo variant 41,appliances,"stainless steel, plastic (abs, pvc)",5.0,129.13,boston,5.29,8.83
-levi’s 511 jeans variant 42,fashion,regular cotton,0.56,89.37,san francisco,7.31,3.8
-dell xps 13 variant 43,laptops,"aluminum, carbon fiber",1.23,1270.5,austin,4.68,8.83
-hp spectre x360 variant 44,laptops,"aluminum, recycled plastic",1.66,1616.85,boston,6.33,6.76
-dyson purifier cool tp09 variant 45,appliances,"aluminum, plastic (abs, pvc)",3.68,408.93,chicago,4.85,9.4
-instant pot duo variant 46,appliances,"stainless steel, plastic (abs, pvc)",4.5,149.7,boston,5.49,8.36
-patagonia better sweater variant 47,fashion,recycled polyester (rpet),0.79,105.78,denver,5.65,3.72
-lego classic bricks box variant 48,kids & baby,recycled plastic,1.48,61.22,los angeles,6.17,4.65
-google pixel 8 pro variant 49,mobiles,"recycled plastic, glass",0.25,939.3,mountain view,6.68,5.35
-levi’s 511 jeans variant 50,fashion,regular cotton,0.51,84.87,san francisco,6.66,3.74
-dell xps 13 variant 51,laptops,"aluminum, carbon fiber",1.4,1087.97,austin,5.31,8.5
-ninja air fryer max xl variant 52,appliances,"recycled plastic, stainless steel",4.28,143.42,seattle,6.52,5.83
-allbirds tree runners variant 53,fashion,hemp,0.47,75.5,san francisco,10.12,2.02
-melissa & doug wooden blocks variant 54,kids & baby,wood,2.12,42.3,denver,7.69,2.77
-apple iphone 15 pro variant 55,mobiles,"aluminum, glass",0.2,782.47,cupertino,6.71,6.34
-dell xps 13 variant 56,laptops,"aluminum, carbon fiber",1.01,1104.23,austin,4.69,8.69
-patagonia better sweater variant 57,fashion,recycled polyester (rpet),0.8,93.21,denver,5.67,3.45
-apple iphone 15 pro variant 58,mobiles,"aluminum, glass",0.19,873.33,cupertino,6.18,6.41
-ninja air fryer max xl variant 59,appliances,"recycled plastic, stainless steel",5.14,118.99,seattle,6.09,6.13
-instant pot duo variant 60,appliances,"stainless steel, plastic (abs, pvc)",4.3,120.26,boston,4.7,7.96
-patagonia better sweater variant 61,fashion,recycled polyester (rpet),0.83,129.01,denver,5.93,3.59
-levi’s 511 jeans variant 62,fashion,regular cotton,0.69,99.12,san francisco,7.29,3.85
-instant pot duo variant 63,appliances,"stainless steel, plastic (abs, pvc)",4.44,150.86,boston,4.51,8.11
-ninja air fryer max xl variant 64,appliances,"recycled plastic, stainless steel",4.62,100.75,seattle,6.95,5.85
-apple iphone 15 pro variant 65,mobiles,"aluminum, glass",0.15,928.13,cupertino,6.93,6.86
-levi’s 511 jeans variant 66,fashion,regular cotton,0.68,103.43,san francisco,6.99,3.58
-melissa & doug wooden blocks variant 67,kids & baby,wood,2.25,35.22,denver,7.6,2.5
-samsung galaxy s24 ultra variant 68,mobiles,"aluminum, recycled plastic, glass",0.26,1278.0,san jose,6.34,6.08
-apple iphone 15 pro variant 69,mobiles,"aluminum, glass",0.15,1242.87,cupertino,6.54,6.49
-dell xps 13 variant 70,laptops,"aluminum, carbon fiber",1.18,859.96,austin,4.87,8.06
-apple macbook air m3 variant 71,laptops,"aluminum, glass",1.03,1576.29,cupertino,6.54,6.49
-samsung galaxy s24 ultra variant 72,mobiles,"aluminum, recycled plastic, glass",0.22,1005.26,san jose,6.64,5.73
-instant pot duo variant 73,appliances,"stainless steel, plastic (abs, pvc)",3.89,129.43,boston,4.53,8.83
-apple iphone 15 pro variant 74,mobiles,"aluminum, glass",0.18,979.64,cupertino,6.27,6.79
-dyson purifier cool tp09 variant 75,appliances,"aluminum, plastic (abs, pvc)",5.14,623.44,chicago,4.63,8.77
-apple iphone 15 pro variant 76,mobiles,"aluminum, glass",0.19,1260.49,cupertino,7.03,6.85
-ninja air fryer max xl variant 77,appliances,"recycled plastic, stainless steel",5.42,135.6,seattle,6.48,6.11
-levi’s 511 jeans variant 78,fashion,regular cotton,0.67,81.79,san francisco,6.65,3.34
-apple macbook air m3 variant 79,laptops,"aluminum, glass",1.11,911.38,cupertino,6.93,7.03
-hp spectre x360 variant 80,laptops,"aluminum, recycled plastic",1.24,1686.36,boston,6.05,6.49
-ninja air fryer max xl variant 81,appliances,"recycled plastic, stainless steel",5.3,127.41,seattle,6.7,6.23
-google pixel 8 pro variant 82,mobiles,"recycled plastic, glass",0.23,725.41,mountain view,6.15,5.61
-dell xps 13 variant 83,laptops,"aluminum, carbon fiber",1.04,1030.58,austin,5.26,8.85
-green toys dump truck variant 84,kids & baby,recycled plastic,1.08,34.73,san diego,5.8,5.47
-ninja air fryer max xl variant 85,appliances,"recycled plastic, stainless steel",5.5,151.01,seattle,6.77,5.74
-hp spectre x360 variant 86,laptops,"aluminum, recycled plastic",1.41,1570.51,boston,5.56,6.73
-apple iphone 15 pro variant 87,mobiles,"aluminum, glass",0.22,999.41,cupertino,6.87,6.83
-hp spectre x360 variant 88,laptops,"aluminum, recycled plastic",1.23,1315.31,boston,6.25,6.73
-lego classic bricks box variant 89,kids & baby,recycled plastic,2.02,39.71,los angeles,6.1,4.95
-samsung galaxy s24 ultra variant 90,mobiles,"aluminum, recycled plastic, glass",0.27,1258.72,san jose,6.38,6.31
-levi’s 511 jeans variant 91,fashion,regular cotton,0.62,72.86,san francisco,6.91,3.35
-green toys dump truck variant 92,kids & baby,recycled plastic,0.98,41.55,san diego,6.38,5.45
-levi’s 511 jeans variant 93,fashion,regular cotton,0.7,94.29,san francisco,6.54,4.13
-dell xps 13 variant 94,laptops,"aluminum, carbon fiber",1.14,1086.95,austin,4.97,8.13
-patagonia better sweater variant 95,fashion,recycled polyester (rpet),0.77,161.31,denver,5.71,3.99
-allbirds tree runners variant 96,fashion,hemp,0.58,76.06,san francisco,10.11,1.66
-samsung galaxy s24 ultra variant 97,mobiles,"aluminum, recycled plastic, glass",0.26,1537.91,san jose,6.84,5.85
-patagonia better sweater variant 98,fashion,recycled polyester (rpet),0.73,97.26,denver,6.38,4.04
-lego classic bricks box variant 99,kids & baby,recycled plastic,1.65,51.84,los angeles,6.08,4.98
-dell xps 13 variant 100,laptops,"aluminum, carbon fiber",1.4,1554.06,austin,4.73,8.76
-hp spectre x360 variant 101,laptops,"aluminum, recycled plastic",1.43,1661.65,boston,6.15,6.99
-lego classic bricks box variant 102,kids & baby,recycled plastic,1.66,61.12,los angeles,5.75,4.97
-hp spectre x360 variant 103,laptops,"aluminum, recycled plastic",1.16,1674.6,boston,5.87,6.51
-dell xps 13 variant 104,laptops,"aluminum, carbon fiber",1.0,895.85,austin,5.02,8.1
-apple macbook air m3 variant 105,laptops,"aluminum, glass",1.24,1282.75,cupertino,6.74,7.09
-instant pot duo variant 106,appliances,"stainless steel, plastic (abs, pvc)",3.94,165.04,boston,4.84,8.21
-levi’s 511 jeans variant 107,fashion,regular cotton,0.65,111.1,san francisco,7.2,3.7
-levi’s 511 jeans variant 108,fashion,regular cotton,0.67,108.4,san francisco,7.44,3.85
-apple iphone 15 pro variant 109,mobiles,"aluminum, glass",0.17,1164.88,cupertino,6.34,6.51
-apple iphone 15 pro variant 110,mobiles,"aluminum, glass",0.18,1250.62,cupertino,6.22,7.0
-allbirds tree runners variant 111,fashion,hemp,0.53,119.48,san francisco,9.53,2.35
-hp spectre x360 variant 112,laptops,"aluminum, recycled plastic",1.5,1368.09,boston,5.51,6.72
-apple macbook air m3 variant 113,laptops,"aluminum, glass",1.18,1437.41,cupertino,6.07,6.98
-dell xps 13 variant 114,laptops,"aluminum, carbon fiber",1.13,1323.09,austin,4.83,8.87
-google pixel 8 pro variant 115,mobiles,"recycled plastic, glass",0.17,744.18,mountain view,6.26,5.05
-melissa & doug wooden blocks variant 116,kids & baby,wood,2.92,62.51,denver,8.28,2.81
-apple iphone 15 pro variant 117,mobiles,"aluminum, glass",0.18,1224.88,cupertino,6.4,6.58
-melissa & doug wooden blocks variant 118,kids & baby,wood,2.34,56.35,denver,7.99,2.39
-green toys dump truck variant 119,kids & baby,recycled plastic,1.16,38.12,san diego,5.58,5.11
-instant pot duo variant 120,appliances,"stainless steel, plastic (abs, pvc)",4.77,160.18,boston,5.07,8.52
-green toys dump truck variant 121,kids & baby,recycled plastic,1.16,24.99,san diego,5.58,5.34
-green toys dump truck variant 122,kids & baby,recycled plastic,1.43,36.58,san diego,5.94,4.77
-melissa & doug wooden blocks variant 123,kids & baby,wood,2.67,62.26,denver,7.76,2.31
-allbirds tree runners variant 124,fashion,hemp,0.41,90.85,san francisco,9.66,1.81
-dyson purifier cool tp09 variant 125,appliances,"aluminum, plastic (abs, pvc)",4.35,395.44,chicago,4.85,8.66
-samsung galaxy s24 ultra variant 126,mobiles,"aluminum, recycled plastic, glass",0.24,1337.26,san jose,5.94,5.75
-lego classic bricks box variant 127,kids & baby,recycled plastic,1.89,38.71,los angeles,6.49,5.07
-green toys dump truck variant 128,kids & baby,recycled plastic,1.37,43.94,san diego,5.56,4.8
-lego classic bricks box variant 129,kids & baby,recycled plastic,1.78,38.7,los angeles,5.57,4.75
-lego classic bricks box variant 130,kids & baby,recycled plastic,2.03,48.1,los angeles,5.99,4.9
-google pixel 8 pro variant 131,mobiles,"recycled plastic, glass",0.18,1190.53,mountain view,6.99,5.31
-apple macbook air m3 variant 132,laptops,"aluminum, glass",1.08,1329.51,cupertino,6.4,6.67
-google pixel 8 pro variant 133,mobiles,"recycled plastic, glass",0.18,1145.42,mountain view,6.43,5.69
-google pixel 8 pro variant 134,mobiles,"recycled plastic, glass",0.19,1216.53,mountain view,6.32,5.03
-ninja air fryer max xl variant 135,appliances,"recycled plastic, stainless steel",5.36,110.33,seattle,6.41,6.13
-allbirds tree runners variant 136,fashion,hemp,0.44,81.84,san francisco,10.24,2.36
-allbirds tree runners variant 137,fashion,hemp,0.52,102.76,san francisco,9.65,1.46
-lego classic bricks box variant 138,kids & baby,recycled plastic,1.54,54.27,los angeles,6.19,4.73
-lego classic bricks box variant 139,kids & baby,recycled plastic,2.03,62.86,los angeles,6.38,4.96
-allbirds tree runners variant 140,fashion,hemp,0.47,83.23,san francisco,9.64,1.91
-instant pot duo variant 141,appliances,"stainless steel, plastic (abs, pvc)",4.3,150.0,boston,5.21,8.58
-instant pot duo variant 142,appliances,"stainless steel, plastic (abs, pvc)",3.37,160.29,boston,4.82,8.0
-apple macbook air m3 variant 143,laptops,"aluminum, glass",1.15,922.65,cupertino,6.73,6.91
-melissa & doug wooden blocks variant 144,kids & baby,wood,2.02,53.53,denver,7.65,2.15
-dyson purifier cool tp09 variant 145,appliances,"aluminum, plastic (abs, pvc)",3.85,635.3,chicago,4.23,9.14
-google pixel 8 pro variant 146,mobiles,"recycled plastic, glass",0.17,1132.45,mountain view,6.09,5.33
-instant pot duo variant 147,appliances,"stainless steel, plastic (abs, pvc)",4.06,124.67,boston,5.46,8.66
-melissa & doug wooden blocks variant 148,kids & baby,wood,2.74,59.31,denver,8.13,2.31
-allbirds tree runners variant 149,fashion,hemp,0.42,101.48,san francisco,9.81,2.13
-hp spectre x360 variant 150,laptops,"aluminum, recycled plastic",1.4,1095.39,boston,5.76,7.21
-allbirds tree runners variant 151,fashion,hemp,0.43,82.1,san francisco,10.36,1.7
-instant pot duo variant 152,appliances,"stainless steel, plastic (abs, pvc)",4.13,112.56,boston,5.08,8.68
-patagonia better sweater variant 153,fashion,recycled polyester (rpet),0.71,130.22,denver,5.51,4.09
-allbirds tree runners variant 154,fashion,hemp,0.5,116.89,san francisco,9.91,1.54
-ninja air fryer max xl variant 155,appliances,"recycled plastic, stainless steel",5.05,159.69,seattle,6.24,5.9
-ninja air fryer max xl variant 156,appliances,"recycled plastic, stainless steel",4.23,153.24,seattle,6.23,6.48
-hp spectre x360 variant 157,laptops,"aluminum, recycled plastic",1.4,1632.86,boston,5.55,7.02
-levi’s 511 jeans variant 158,fashion,regular cotton,0.55,75.15,san francisco,6.59,4.08
-hp spectre x360 variant 159,laptops,"aluminum, recycled plastic",1.43,1440.68,boston,6.1,6.68
-apple iphone 15 pro variant 160,mobiles,"aluminum, glass",0.2,796.58,cupertino,6.2,6.76
-ninja air fryer max xl variant 161,appliances,"recycled plastic, stainless steel",4.85,172.16,seattle,6.52,6.12
-google pixel 8 pro variant 162,mobiles,"recycled plastic, glass",0.18,1140.46,mountain view,6.01,5.43
-dell xps 13 variant 163,laptops,"aluminum, carbon fiber",1.02,1533.15,austin,4.96,8.12
-hp spectre x360 variant 164,laptops,"aluminum, recycled plastic",1.62,1523.9,boston,6.17,7.09
-apple macbook air m3 variant 165,laptops,"aluminum, glass",1.03,1128.7,cupertino,6.43,6.94
-dell xps 13 variant 166,laptops,"aluminum, carbon fiber",1.07,1125.09,austin,5.26,8.79
-dyson purifier cool tp09 variant 167,appliances,"aluminum, plastic (abs, pvc)",3.62,629.05,chicago,4.19,9.39
-apple macbook air m3 variant 168,laptops,"aluminum, glass",1.11,1249.08,cupertino,6.35,6.9
-dell xps 13 variant 169,laptops,"aluminum, carbon fiber",1.06,940.77,austin,5.49,8.65
-instant pot duo variant 170,appliances,"stainless steel, plastic (abs, pvc)",3.43,143.03,boston,5.22,8.15
-allbirds tree runners variant 171,fashion,hemp,0.45,87.4,san francisco,9.99,2.09
-samsung galaxy s24 ultra variant 172,mobiles,"aluminum, recycled plastic, glass",0.22,1037.0,san jose,6.69,5.71
-ninja air fryer max xl variant 173,appliances,"recycled plastic, stainless steel",5.47,104.6,seattle,6.92,5.84
-green toys dump truck variant 174,kids & baby,recycled plastic,1.34,30.51,san diego,5.53,5.43
-apple macbook air m3 variant 175,laptops,"aluminum, glass",1.22,1542.55,cupertino,6.91,6.82
-patagonia better sweater variant 176,fashion,recycled polyester (rpet),0.78,144.99,denver,6.47,3.79
-dyson purifier cool tp09 variant 177,appliances,"aluminum, plastic (abs, pvc)",4.39,436.78,chicago,4.07,9.15
-dyson purifier cool tp09 variant 178,appliances,"aluminum, plastic (abs, pvc)",4.83,478.42,chicago,4.5,9.27
-ninja air fryer max xl variant 179,appliances,"recycled plastic, stainless steel",5.49,163.95,seattle,6.13,6.23
-dyson purifier cool tp09 variant 180,appliances,"aluminum, plastic (abs, pvc)",3.83,647.17,chicago,4.1,8.97
-instant pot duo variant 181,appliances,"stainless steel, plastic (abs, pvc)",3.39,141.75,boston,5.46,8.04
-green toys dump truck variant 182,kids & baby,recycled plastic,1.04,29.9,san diego,5.61,4.92
-patagonia better sweater variant 183,fashion,recycled polyester (rpet),0.64,164.86,denver,5.79,4.24
-apple iphone 15 pro variant 184,mobiles,"aluminum, glass",0.15,1269.1,cupertino,6.43,6.93
-levi’s 511 jeans variant 185,fashion,regular cotton,0.54,69.62,san francisco,7.06,3.65
-instant pot duo variant 186,appliances,"stainless steel, plastic (abs, pvc)",3.4,103.44,boston,5.08,7.94
-dyson purifier cool tp09 variant 187,appliances,"aluminum, plastic (abs, pvc)",4.0,496.5,chicago,4.71,8.7
-ninja air fryer max xl variant 188,appliances,"recycled plastic, stainless steel",4.55,162.78,seattle,6.55,6.59
-lego classic bricks box variant 189,kids & baby,recycled plastic,1.78,50.98,los angeles,6.46,5.44
-lego classic bricks box variant 190,kids & baby,recycled plastic,1.58,34.37,los angeles,5.79,5.04
-levi’s 511 jeans variant 191,fashion,regular cotton,0.58,72.07,san francisco,7.39,3.59
-green toys dump truck variant 192,kids & baby,recycled plastic,1.31,23.96,san diego,6.19,4.77
-apple iphone 15 pro variant 193,mobiles,"aluminum, glass",0.2,1148.99,cupertino,6.39,6.54
-samsung galaxy s24 ultra variant 194,mobiles,"aluminum, recycled plastic, glass",0.26,1280.62,san jose,5.99,6.56
-apple iphone 15 pro variant 195,mobiles,"aluminum, glass",0.18,947.71,cupertino,6.76,6.49
-instant pot duo variant 196,appliances,"stainless steel, plastic (abs, pvc)",3.78,131.22,boston,4.67,8.26
-apple macbook air m3 variant 197,laptops,"aluminum, glass",1.42,1655.75,cupertino,6.99,6.42
-levi’s 511 jeans variant 198,fashion,regular cotton,0.64,65.46,san francisco,6.54,3.49
-apple macbook air m3 variant 199,laptops,"aluminum, glass",1.23,1208.77,cupertino,6.44,6.63
+timberland 6-inch premium boot,fashion,"leather, rubber (synthetic)",1.2,198.0,stratham,5.4,7.2
+converse chuck taylor all star,fashion,"organic cotton, rubber (natural)",0.7,65.0,north andover,8.5,2.6
+dr. martens 1460,fashion,leather,1.1,170.0,wollaston,5.0,8.0
+new balance 574,fashion,"polyester, rubber (synthetic)",0.6,90.0,boston,4.6,6.3
+puma suede classic,fashion,"leather, vegan leather (pu, pineapple, etc.)",0.75,80.0,herzogenaurach,6.0,6.25
+vans old skool,fashion,"organic cotton, rubber (natural)",0.65,70.0,costa mesa,8.5,2.6
+under armour hovr phantom,fashion,"polyester, recycled polyester (rpet)",0.45,150.0,baltimore,5.0,5.15
+columbia newton ridge boots,fashion,"leather, recycled polyester (rpet)",1.0,100.0,portland,5.5,6.1
+salomon speedcross 6,fashion,"recycled polyester (rpet), rubber (synthetic)",0.55,140.0,annecy,5.0,5.15
+merrell moab 3,fashion,"leather, recycled polyester (rpet)",0.9,130.0,rockford,5.5,6.1
+keen targhee iii,fashion,"leather, recycled plastic",0.95,145.0,portland,5.75,6.38
+teva hurricane xlt2,fashion,"recycled plastic, rubber (natural)",0.6,75.0,goleta,7.0,4.1
+crocs classic clog,fashion,bioplastic (pla),0.3,50.0,nixa,8.0,3.5
+ugg classic mini ii,fashion,"wool, leather",0.7,160.0,goleta,5.5,6.4
+clarks desert boot,fashion,leather,0.8,140.0,street,5.0,8.0
+blundstone 550,fashion,leather,1.0,200.0,hobart,5.0,8.0
+red wing iron ranger,fashion,leather,1.15,350.0,red wing,5.0,8.0
+north face osito jacket,fashion,recycled polyester (rpet),0.5,110.0,san francisco,6.0,3.8
+carhartt wip detroit jacket,fashion,organic cotton,0.8,180.0,dearborn,9.0,2.0
+filson tin cloth jacket,fashion,"regular cotton, wax",1.1,350.0,seattle,7.0,3.8
+barbour bedale wax jacket,fashion,"regular cotton, wax",1.2,399.0,south shields,7.0,3.8
+moncler maya jacket,fashion,polyester,0.9,1590.0,monestier-de-clermont,4.0,6.5
+canada goose expedition parka,fashion,"polyester, wool",2.5,1295.0,toronto,5.0,5.65
+arcteryx atom hoody,fashion,recycled polyester (rpet),0.38,300.0,vancouver,6.0,3.8
+rab microlight alpine,fashion,recycled polyester (rpet),0.47,275.0,derbyshire,6.0,3.8
+mammut eigerjoch jacket,fashion,polyester,0.6,600.0,seon,4.0,6.5
+peak performance frost down,fashion,recycled polyester (rpet),0.7,450.0,stockholm,6.0,3.8
+helly hansen odin jacket,fashion,recycled polyester (rpet),0.55,400.0,oslo,6.0,3.8
+levi’s 511 slim jeans variant 0,fashion,regular cotton,0.67,101.02,san francisco,7.32,3.43
+vans old skool variant 1,fashion,"organic cotton, rubber (natural)",0.73,64.07,costa mesa,8.74,2.9
+ecovacs deebot x2 omni variant 2,appliances,"plastic (abs, pvc), silicone",5.59,1074.78,suzhou,3.09,8.74
+plan toys wooden dollhouse variant 3,kids & baby,"wood, fabric composite",4.64,124.05,bangkok,6.64,3.99
+instant pot pro crisp variant 4,appliances,"stainless steel, plastic (abs, pvc)",6.0,161.88,boston,5.44,8.03
+merrell moab 3 variant 5,fashion,"leather, recycled polyester (rpet)",1.03,140.51,rockford,5.75,6.31
+lenovo thinkpad x1 carbon gen 12 variant 6,laptops,"carbon fiber, magnesium alloy",1.05,1648.89,morrisville,4.9,9.16
+ugg classic mini ii variant 7,fashion,"wool, leather",0.78,134.23,goleta,5.14,6.63
+asus rog phone 9 variant 8,mobiles,"aluminum, carbon fiber, glass",0.21,902.05,taipei,5.37,8.32
+nokia xr21 variant 9,mobiles,"recycled plastic, stainless steel",0.2,763.64,espoo,6.57,6.34
+shark navigator vacuum variant 10,appliances,"plastic (abs, pvc), recycled plastic",6.11,189.83,needham,4.6,8.26
+everlane the track jogger variant 11,fashion,recycled polyester (rpet),0.43,83.82,san francisco,6.22,3.55
+google pixel 9 pro variant 12,mobiles,"recycled plastic, glass",0.2,921.04,mountain view,6.87,5.75
+north face osito jacket variant 13,fashion,recycled polyester (rpet),0.6,79.49,san francisco,5.64,3.42
+columbia newton ridge boots variant 14,fashion,"leather, recycled polyester (rpet)",1.08,108.89,portland,5.34,6.28
+huawei mate 70 pro variant 15,mobiles,"aluminum, glass",0.17,1415.38,shenzhen,6.98,6.62
+smeg retro kettle variant 16,appliances,"stainless steel, plastic (abs, pvc)",1.85,227.51,guastalla,5.19,8.1
+google pixel 9 pro variant 17,mobiles,"recycled plastic, glass",0.18,751.1,mountain view,6.79,5.4
+huawei matebook x pro 2025 variant 18,laptops,"magnesium alloy, aluminum",0.81,2009.74,shenzhen,5.78,7.65
+everlane the track jogger variant 19,fashion,recycled polyester (rpet),0.41,91.99,san francisco,5.7,4.11
+ugg classic mini ii variant 20,fashion,"wool, leather",0.66,202.89,goleta,5.15,6.51
+filson tin cloth jacket variant 21,fashion,"regular cotton, wax",1.07,339.52,seattle,7.22,3.53
+fisher-price little people farm variant 22,kids & baby,"plastic (abs, polycarbonate), silicone",1.3,47.64,east aurora,4.83,7.31
+converse chuck taylor all star variant 23,fashion,"organic cotton, rubber (natural)",0.57,69.52,north andover,8.28,2.73
+bissell little green variant 24,appliances,"recycled plastic, polypropylene (pp)",4.91,115.76,grand rapids,5.23,5.37
+timberland 6-inch premium boot variant 25,fashion,"leather, rubber (synthetic)",0.97,206.86,stratham,5.48,6.96
+converse chuck taylor all star variant 26,fashion,"organic cotton, rubber (natural)",0.82,83.99,north andover,8.49,2.88
+h&m organic cotton t-shirt variant 27,fashion,organic cotton,0.19,14.76,stockholm,8.78,1.5
+lovevery the realist set variant 28,kids & baby,"organic cotton, wood",1.74,146.17,bozeman,8.97,2.46
+helly hansen odin jacket variant 29,fashion,recycled polyester (rpet),0.64,332.52,oslo,5.61,3.97
+tentree bamboo hoodie variant 30,fashion,"bamboo fiber, organic cotton",0.52,63.85,vancouver,9.25,1.78
+zwilling air fryer variant 31,appliances,"stainless steel, ceramic",5.08,142.0,solingen,7.06,5.35
+north face osito jacket variant 32,fashion,recycled polyester (rpet),0.57,90.56,san francisco,5.88,4.23
+nothing phone (3) variant 33,mobiles,"aluminum, recycled plastic",0.22,751.23,london,6.1,5.41
+lululemon wunder train leggings variant 34,fashion,polyester,0.37,94.88,vancouver,3.94,6.76
+zwilling air fryer variant 35,appliances,"stainless steel, ceramic",5.15,178.55,solingen,7.84,5.15
+samsung galaxy s25 ultra variant 36,mobiles,"aluminum, recycled plastic, glass",0.24,1637.27,suwon,6.17,5.97
+bissell little green variant 37,appliances,"recycled plastic, polypropylene (pp)",4.56,91.03,grand rapids,4.9,5.93
+asus rog phone 9 variant 38,mobiles,"aluminum, carbon fiber, glass",0.24,964.57,taipei,4.65,7.99
+birkenstock arizona eva variant 39,fashion,bioplastic (pla),0.45,47.93,neustadt,7.89,3.37
+salomon speedcross 6 variant 40,fashion,"recycled polyester (rpet), rubber (synthetic)",0.55,121.87,annecy,5.19,5.47
+nokia xr21 variant 41,mobiles,"recycled plastic, stainless steel",0.19,530.95,espoo,6.19,5.85
+zwilling air fryer variant 42,appliances,"stainless steel, ceramic",4.91,170.36,solingen,7.38,5.77
+oppo find x8 ultra variant 43,mobiles,"aluminum, vegan leather (pu, pineapple, etc.)",0.23,1188.05,dongguan,6.74,7.09
+h&m organic cotton t-shirt variant 44,fashion,organic cotton,0.18,8.53,stockholm,8.77,1.89
+arcteryx atom hoody variant 45,fashion,recycled polyester (rpet),0.43,360.86,vancouver,5.54,3.32
+puma suede classic variant 46,fashion,"leather, vegan leather (pu, pineapple, etc.)",0.78,93.93,herzogenaurach,5.52,6.72
+oneplus 13 variant 47,mobiles,"aluminum, glass, magnesium alloy",0.22,861.34,shenzhen,5.66,6.72
+salomon speedcross 6 variant 48,fashion,"recycled polyester (rpet), rubber (synthetic)",0.53,116.67,annecy,4.55,4.79
+google pixel 9 pro variant 49,mobiles,"recycled plastic, glass",0.19,725.01,mountain view,6.24,5.05
+hp spectre x360 14 variant 50,laptops,"aluminum, recycled plastic",1.15,1270.84,palo alto,6.1,6.64
+the north face thermoball jacket variant 51,fashion,recycled polyester (rpet),0.38,281.73,san francisco,5.96,3.31
+philips 4300 lattego variant 52,appliances,"plastic (abs, pvc), stainless steel",8.68,960.25,amsterdam,4.37,9.42
+plan toys wooden dollhouse variant 53,kids & baby,"wood, fabric composite",4.9,173.84,bangkok,6.49,3.99
+dell xps 14 9440 variant 54,laptops,"aluminum, carbon fiber",1.92,1628.43,austin,5.38,8.22
+keen targhee iii variant 55,fashion,"leather, recycled plastic",0.88,169.99,portland,6.24,5.89
+razer blade 16 variant 56,laptops,"aluminum, carbon fiber",2.12,2704.84,irvine,4.24,8.71
+peak performance frost down variant 57,fashion,recycled polyester (rpet),0.7,406.46,stockholm,6.27,3.46
+levi’s 511 slim jeans variant 58,fashion,regular cotton,0.61,79.34,san francisco,7.08,3.49
+acer swift go 14 variant 59,laptops,"plastic (abs, polycarbonate)",1.5,720.19,taipei,2.59,9.6
+veja campo sneakers variant 60,fashion,"organic cotton, vegan leather (pu, pineapple, etc.)",0.53,105.16,paris,7.04,3.37
+xiaomi 15 pro variant 61,mobiles,"stainless steel, glass",0.2,627.88,beijing,6.82,6.47
+apple macbook air 15 m3 variant 62,laptops,aluminum,1.58,1092.3,cupertino,6.13,8.14
+apple macbook pro 14 m4 variant 63,laptops,aluminum,1.35,1966.73,cupertino,5.84,7.6
+plan toys wooden dollhouse variant 64,kids & baby,"wood, fabric composite",5.07,161.19,bangkok,6.73,3.25
+sony xperia 1 vi variant 65,mobiles,"aluminum, glass",0.2,1251.83,tokyo,6.42,6.9
+tentree bamboo hoodie variant 66,fashion,"bamboo fiber, organic cotton",0.48,58.42,vancouver,9.01,2.1
+haba my first ball track variant 67,kids & baby,wood,2.11,89.61,bad rodenbach,7.68,2.15
+huawei matebook x pro 2025 variant 68,laptops,"magnesium alloy, aluminum",0.84,1194.37,shenzhen,5.44,7.04
+xiaomi 15 pro variant 69,mobiles,"stainless steel, glass",0.19,991.08,beijing,6.45,6.99
+lenovo thinkpad x1 carbon gen 12 variant 70,laptops,"carbon fiber, magnesium alloy",0.92,2208.65,morrisville,5.02,9.24
+blundstone 550 variant 71,fashion,leather,0.99,173.16,hobart,4.53,7.61
+instant pot pro crisp variant 72,appliances,"stainless steel, plastic (abs, pvc)",7.25,177.9,boston,4.51,7.97
+miele complete c3 variant 73,appliances,"plastic (abs, pvc)",4.53,452.73,gütersloh,3.43,9.91
+barbour bedale wax jacket variant 74,fashion,"regular cotton, wax",1.3,416.26,south shields,6.89,3.91
+hp spectre x360 14 variant 75,laptops,"aluminum, recycled plastic",1.63,1469.88,palo alto,6.3,6.49
+haba my first ball track variant 76,kids & baby,wood,1.51,90.91,bad rodenbach,7.79,2.46
+levi’s 511 slim jeans variant 77,fashion,regular cotton,0.54,105.14,san francisco,6.59,3.44
+arcteryx atom hoody variant 78,fashion,recycled polyester (rpet),0.35,255.77,vancouver,6.47,4.08
+crocs classic clog variant 79,fashion,bioplastic (pla),0.34,53.85,nixa,7.82,3.29
+helly hansen odin jacket variant 80,fashion,recycled polyester (rpet),0.56,373.98,oslo,5.92,4.05
+allbirds wool runner mizzles variant 81,fashion,wool,0.47,152.96,san francisco,5.85,5.21
+lululemon wunder train leggings variant 82,fashion,polyester,0.34,125.21,vancouver,4.23,6.46
+huawei mate 70 pro variant 83,mobiles,"aluminum, glass",0.17,1246.84,shenzhen,6.46,6.78
+lovevery the realist set variant 84,kids & baby,"organic cotton, wood",2.15,144.89,bozeman,8.13,2.28
+columbia newton ridge boots variant 85,fashion,"leather, recycled polyester (rpet)",1.12,124.89,portland,5.81,5.91
+arcteryx atom hoody variant 86,fashion,recycled polyester (rpet),0.43,348.22,vancouver,6.45,3.61
+under armour hovr phantom variant 87,fashion,"polyester, recycled polyester (rpet)",0.52,153.85,baltimore,4.66,5.14
+apple macbook air 15 m3 variant 88,laptops,aluminum,1.8,1202.44,cupertino,5.91,8.0
+lenovo thinkpad x1 carbon gen 12 variant 89,laptops,"carbon fiber, magnesium alloy",1.06,1419.7,morrisville,5.23,8.77
+teva hurricane xlt2 variant 90,fashion,"recycled plastic, rubber (natural)",0.49,94.1,goleta,6.74,3.89
+asus zenbook 14 oled um3406 variant 91,laptops,"aluminum, bioplastic (pla)",1.54,1150.57,taipei,7.15,5.27
+levi’s 501 original jeans variant 92,fashion,regular cotton,0.59,68.36,san francisco,6.95,4.19
+levi’s 501 original jeans variant 93,fashion,regular cotton,0.68,56.31,san francisco,6.67,3.84
+"microsoft surface laptop 7 15"" variant 94",laptops,"aluminum, recycled plastic",1.67,1675.09,redmond,5.56,6.47
+ugg classic mini ii variant 95,fashion,"wool, leather",0.76,168.08,goleta,5.21,6.65
+vivo x200 pro variant 96,mobiles,"aluminum, glass",0.18,1031.09,dongguan,6.51,6.29
+peak performance frost down variant 97,fashion,recycled polyester (rpet),0.61,387.62,stockholm,6.24,3.67
+patagonia better sweater variant 98,fashion,recycled polyester (rpet),0.63,136.3,ventura,6.34,3.96
+vtech toot-toot drivers variant 99,kids & baby,"plastic (abs, polycarbonate)",0.86,33.6,hong kong,3.02,9.75
+adidas stan smith variant 100,fashion,"recycled polyester (rpet), vegan leather (pu, pineapple, etc.)",0.42,99.52,hamburg,6.33,4.38
+teva hurricane xlt2 variant 101,fashion,"recycled plastic, rubber (natural)",0.62,86.33,goleta,7.05,3.63
+lg gram 17 2025 variant 102,laptops,magnesium alloy,1.61,1318.11,seoul,4.91,7.5
+instant pot pro crisp variant 103,appliances,"stainless steel, plastic (abs, pvc)",5.36,136.6,boston,5.12,8.23
+lenovo thinkpad x1 carbon gen 12 variant 104,laptops,"carbon fiber, magnesium alloy",1.28,1374.65,morrisville,4.5,9.07
+patagonia nano puff jacket variant 105,fashion,recycled polyester (rpet),0.36,244.63,ventura,5.94,3.94
+barbour bedale wax jacket variant 106,fashion,"regular cotton, wax",1.1,311.27,south shields,7.02,4.24
+zara linen blend shirt variant 107,fashion,linen (flax),0.28,39.2,madrid,8.19,2.23
+rab microlight alpine variant 108,fashion,recycled polyester (rpet),0.55,346.37,derbyshire,5.79,4.04
+oneplus 13 variant 109,mobiles,"aluminum, glass, magnesium alloy",0.21,1056.15,shenzhen,6.07,7.42
+keen targhee iii variant 110,fashion,"leather, recycled plastic",0.84,122.93,portland,5.88,6.85
+nokia xr21 variant 111,mobiles,"recycled plastic, stainless steel",0.24,763.17,espoo,6.89,6.55
+nothing phone (3) variant 112,mobiles,"aluminum, recycled plastic",0.18,617.14,london,6.46,5.56
+smeg retro kettle variant 113,appliances,"stainless steel, plastic (abs, pvc)",1.84,209.69,guastalla,4.58,8.23
+framework laptop 16 variant 114,laptops,"aluminum, recycled plastic",1.74,1226.97,san francisco,6.18,5.08
+filson tin cloth jacket variant 115,fashion,"regular cotton, wax",1.04,322.91,seattle,7.02,3.73
+haba my first ball track variant 116,kids & baby,wood,1.48,96.91,bad rodenbach,7.81,2.52
+arcteryx beta ar jacket variant 117,fashion,"recycled polyester (rpet), polyester",0.41,764.77,vancouver,4.69,4.86
+patagonia nano puff jacket variant 118,fashion,recycled polyester (rpet),0.42,256.82,ventura,6.14,4.26
+delonghi dedica espresso variant 119,appliances,"stainless steel, aluminum",3.6,281.81,milan,6.2,7.81
+arcteryx beta ar jacket variant 120,fashion,"recycled polyester (rpet), polyester",0.48,513.87,vancouver,4.72,4.66
+lenovo thinkpad x1 carbon gen 12 variant 121,laptops,"carbon fiber, magnesium alloy",1.17,2247.42,morrisville,4.79,8.56
+motorola razr 50 ultra variant 122,mobiles,"aluminum, plastic (abs, polycarbonate)",0.2,961.04,chicago,4.83,8.61
+skip hop explore & more gym variant 123,kids & baby,"polypropylene (pp), organic cotton",1.9,83.94,new york,6.56,4.44
+manhattan toy tree top adventure variant 124,kids & baby,"wood, fabric composite",1.9,109.38,minneapolis,7.31,3.36
+lg gram 17 2025 variant 125,laptops,magnesium alloy,1.4,1876.82,seoul,4.65,7.34
+framework laptop 16 variant 126,laptops,"aluminum, recycled plastic",1.79,1423.78,san francisco,6.03,5.34
+balmuuda the toaster variant 127,appliances,"stainless steel, glass",4.83,322.58,tokyo,6.83,7.36
+skip hop explore & more gym variant 128,kids & baby,"polypropylene (pp), organic cotton",1.69,88.69,new york,6.24,4.48
+peak performance frost down variant 129,fashion,recycled polyester (rpet),0.58,478.4,stockholm,6.3,3.33
+dell xps 14 9440 variant 130,laptops,"aluminum, carbon fiber",1.9,1555.36,austin,4.59,8.58
+xiaomi 15 pro variant 131,mobiles,"stainless steel, glass",0.19,1079.07,beijing,6.7,7.07
+lego duplo number train variant 132,kids & baby,recycled plastic,1.25,28.1,billund,6.15,4.94
+levi’s 511 slim jeans variant 133,fashion,regular cotton,0.66,77.87,san francisco,7.18,3.44
+canada goose expedition parka variant 134,fashion,"polyester, wool",2.02,1023.21,toronto,5.45,5.39
+razer blade 16 variant 135,laptops,"aluminum, carbon fiber",2.56,2358.49,irvine,4.79,9.35
+keen targhee iii variant 136,fashion,"leather, recycled plastic",0.95,160.9,portland,5.84,6.07
+h&m organic cotton t-shirt variant 137,fashion,organic cotton,0.18,10.05,stockholm,8.86,2.42
+melissa & doug wooden puzzle variant 138,kids & baby,wood,0.68,19.36,denver,8.32,2.95
+north face osito jacket variant 139,fashion,recycled polyester (rpet),0.58,134.73,san francisco,5.86,3.79
+lululemon wunder train leggings variant 140,fashion,polyester,0.35,145.11,vancouver,4.22,6.68
+vivo x200 pro variant 141,mobiles,"aluminum, glass",0.16,973.52,dongguan,6.41,6.43
+zara linen blend shirt variant 142,fashion,linen (flax),0.26,57.45,madrid,7.55,2.2
+shark navigator vacuum variant 143,appliances,"plastic (abs, pvc), recycled plastic",6.75,226.23,needham,5.13,8.55
+timberland 6-inch premium boot variant 144,fashion,"leather, rubber (synthetic)",1.27,195.18,stratham,5.39,7.05
+dell xps 14 9440 variant 145,laptops,"aluminum, carbon fiber",1.83,1636.83,austin,5.37,8.05
+new balance 574 variant 146,fashion,"polyester, rubber (synthetic)",0.53,107.79,boston,4.18,6.05
+baby einstein discovery seas variant 147,kids & baby,"recycled plastic, silicone",0.54,38.11,atlanta,6.86,4.51
+converse chuck taylor all star variant 148,fashion,"organic cotton, rubber (natural)",0.61,67.84,north andover,8.22,2.82
+blundstone 550 variant 149,fashion,leather,0.97,160.44,hobart,4.65,8.33
+fisher-price little people farm variant 150,kids & baby,"plastic (abs, polycarbonate), silicone",1.03,55.04,east aurora,5.14,6.55
+vivo x200 pro variant 151,mobiles,"aluminum, glass",0.19,766.76,dongguan,6.7,6.21
+manhattan toy tree top adventure variant 152,kids & baby,"wood, fabric composite",2.19,87.54,minneapolis,7.04,3.28
+barbour bedale wax jacket variant 153,fashion,"regular cotton, wax",1.12,296.51,south shields,7.43,4.18
+green toys seaplane variant 154,kids & baby,recycled plastic,0.45,19.32,san francisco,6.29,4.56
+levi’s 511 slim jeans variant 155,fashion,regular cotton,0.65,102.19,san francisco,7.02,3.77
+samsung galaxy s25 ultra variant 156,mobiles,"aluminum, recycled plastic, glass",0.25,1422.87,suwon,6.21,6.0
+xiaomi 15 pro variant 157,mobiles,"stainless steel, glass",0.2,680.4,beijing,7.02,7.28
+arcteryx beta ar jacket variant 158,fashion,"recycled polyester (rpet), polyester",0.45,558.02,vancouver,5.22,5.06
+ninja foodi max variant 159,appliances,"stainless steel, recycled plastic",4.65,230.83,needham,6.73,6.19
+birkenstock arizona eva variant 160,fashion,bioplastic (pla),0.3,37.93,neustadt,8.04,3.15
+ecovacs deebot x2 omni variant 161,appliances,"plastic (abs, pvc), silicone",4.56,1288.21,suzhou,3.23,8.51
+haba my first ball track variant 162,kids & baby,wood,2.08,89.6,bad rodenbach,7.88,2.18
+fairphone 5 variant 163,mobiles,"recycled plastic, aluminum, bioplastic (pla)",0.19,782.11,amsterdam,7.58,4.87
+arcteryx atom hoody variant 164,fashion,recycled polyester (rpet),0.37,375.52,vancouver,5.77,3.46
+reformation silk dress variant 165,fashion,silk,0.38,235.73,los angeles,6.24,3.58
+dyson v15 detect variant 166,appliances,"aluminum, plastic (abs, pvc)",3.57,734.46,malmesbury,4.9,9.03
+ecovacs deebot x2 omni variant 167,appliances,"plastic (abs, pvc), silicone",5.08,1349.89,suzhou,3.23,8.83
+birkenstock arizona eva variant 168,fashion,bioplastic (pla),0.35,63.58,neustadt,7.77,3.14
+vivo x200 pro variant 169,mobiles,"aluminum, glass",0.2,950.26,dongguan,6.75,6.1
+lenovo thinkpad x1 carbon gen 12 variant 170,laptops,"carbon fiber, magnesium alloy",0.89,1948.43,morrisville,5.07,8.37
+plan toys wooden dollhouse variant 171,kids & baby,"wood, fabric composite",4.52,114.02,bangkok,6.53,3.79
+acer swift go 14 variant 172,laptops,"plastic (abs, polycarbonate)",1.46,526.9,taipei,3.18,9.87
+motorola razr 50 ultra variant 173,mobiles,"aluminum, plastic (abs, polycarbonate)",0.21,708.7,chicago,4.18,8.97
+playmobil family camper variant 174,kids & baby,"plastic (abs, polycarbonate)",1.55,84.85,zirndorf,2.91,10.01
+acer swift go 14 variant 175,laptops,"plastic (abs, polycarbonate)",1.11,633.5,taipei,3.04,9.87
+blundstone 550 variant 176,fashion,leather,1.06,218.16,hobart,4.76,8.12
+patagonia nano puff jacket variant 177,fashion,recycled polyester (rpet),0.39,247.51,ventura,5.68,3.86
+carhartt wip detroit jacket variant 178,fashion,organic cotton,0.89,157.81,dearborn,9.22,2.48
+lg gram 17 2025 variant 179,laptops,magnesium alloy,1.1,1349.28,seoul,5.18,7.57
+shark navigator vacuum variant 180,appliances,"plastic (abs, pvc), recycled plastic",6.52,187.9,needham,4.99,8.1
+vans old skool variant 181,fashion,"organic cotton, rubber (natural)",0.65,54.2,costa mesa,8.82,2.19
+zara linen blend shirt variant 182,fashion,linen (flax),0.26,57.76,madrid,7.63,2.61
+allbirds wool runner mizzles variant 183,fashion,wool,0.42,97.25,san francisco,6.11,5.13
+gucci ace sneakers variant 184,fashion,leather,0.74,743.76,milan,5.18,7.7
+the north face thermoball jacket variant 185,fashion,recycled polyester (rpet),0.4,178.53,san francisco,5.91,3.78
+reformation silk dress variant 186,fashion,silk,0.28,252.64,los angeles,5.74,3.69
+lg gram 17 2025 variant 187,laptops,magnesium alloy,1.5,1900.59,seoul,5.03,7.75
+reformation silk dress variant 188,fashion,silk,0.35,231.89,los angeles,5.81,3.78
+razer blade 16 variant 189,laptops,"aluminum, carbon fiber",2.5,3074.49,irvine,4.41,9.36
+reformation silk dress variant 190,fashion,silk,0.3,256.14,los angeles,6.01,3.04
+vivo x200 pro variant 191,mobiles,"aluminum, glass",0.22,859.73,dongguan,6.47,6.59
+blundstone 550 variant 192,fashion,leather,1.15,147.69,hobart,4.51,7.84
+levi’s 501 original jeans variant 193,fashion,regular cotton,0.63,49.35,san francisco,7.18,3.78
+plan toys wooden dollhouse variant 194,kids & baby,"wood, fabric composite",3.8,133.78,bangkok,6.01,3.62
+levi’s 501 original jeans variant 195,fashion,regular cotton,0.53,50.55,san francisco,6.97,4.16
+columbia newton ridge boots variant 196,fashion,"leather, recycled polyester (rpet)",0.85,119.94,portland,5.49,6.52
+nike air force 1 variant 197,fashion,"leather, rubber (synthetic)",0.45,87.19,beaverton,5.37,7.62
+fairphone 5 variant 198,mobiles,"recycled plastic, aluminum, bioplastic (pla)",0.23,464.92,amsterdam,7.12,4.02
+asus rog phone 9 variant 199,mobiles,"aluminum, carbon fiber, glass",0.2,1332.62,taipei,5.43,8.64

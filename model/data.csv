@@ -1,16 +1,105 @@
 title,category,material,weight,price,origin_location,eco_score,emission_factor
-apple iphone 15 pro,mobiles,"aluminum, glass",0.19,999,cupertino,6.6,6.6
-samsung galaxy s24 ultra,mobiles,"aluminum, recycled plastic, glass",0.23,1199,san jose,6.4,6.2
-google pixel 8 pro,mobiles,"recycled plastic, glass",0.21,999,mountain view,6.5,5.35
-dell xps 13,laptops,"aluminum, carbon fiber",1.2,1199,austin,5.0,8.5
-apple macbook air m3,laptops,"aluminum, glass",1.24,1299,cupertino,6.5,6.6
-hp spectre x360,laptops,"aluminum, recycled plastic",1.4,1299,boston,6.0,6.75
-patagonia better sweater,fashion,recycled polyester (rpet),0.7,129,denver,6.0,3.8
-levi’s 511 jeans,fashion,regular cotton,0.6,89,san francisco,7.0,3.8
-allbirds tree runners,fashion,hemp,0.5,98,san francisco,10.0,1.9
-lego classic bricks box,kids & baby,recycled plastic,1.8,49,los angeles,6.0,5.0
-green toys dump truck,kids & baby,recycled plastic,1.2,34,san diego,6.0,5.0
-melissa & doug wooden blocks,kids & baby,wood,2.5,49,denver,8.0,2.5
-dyson purifier cool tp09,appliances,"aluminum, plastic (abs, pvc)",4.5,549,chicago,4.5,9.0
-ninja air fryer max xl,appliances,"recycled plastic, stainless steel",5.0,139,seattle,6.5,6.15
-instant pot duo,appliances,"stainless steel, plastic (abs, pvc)",4.2,129,boston,5.0,8.4
+"apple iphone 16 pro","mobiles","aluminum, glass",0.199,1099,cupertino,6.60,6.60
+"samsung galaxy s25 ultra","mobiles","aluminum, recycled plastic, glass",0.232,1299,suwon,6.37,6.27
+"google pixel 9 pro","mobiles","recycled plastic, glass",0.213,999,"mountain view",6.50,5.35
+"oneplus 13","mobiles","aluminum, glass, magnesium alloy",0.210,899,shenzhen,5.83,7.17
+"xiaomi 15 pro","mobiles","stainless steel, glass",0.218,849,beijing,6.60,6.80
+"fairphone 5","mobiles","recycled plastic, aluminum, bioplastic (pla)",0.212,649,amsterdam,7.50,4.50
+"sony xperia 1 vi","mobiles","aluminum, glass",0.192,1199,tokyo,6.60,6.60
+"nothing phone (3)","mobiles","aluminum, recycled plastic",0.201,649,london,6.50,5.50
+"motorola razr 50 ultra","mobiles","aluminum, plastic (abs, polycarbonate)",0.188,999,chicago,4.65,8.80
+"asus rog phone 9","mobiles","aluminum, carbon fiber, glass",0.239,1199,taipei,5.07,8.40
+"nokia xr21","mobiles","recycled plastic, stainless steel",0.231,599,espoo,6.65,6.15
+"vivo x200 pro","mobiles","aluminum, glass",0.196,949,dongguan,6.60,6.60
+"oppo find x8 ultra","mobiles","aluminum, vegan leather (pu, pineapple, etc.)",0.219,1099,dongguan,6.25,6.75
+"huawei mate 70 pro","mobiles","aluminum, glass",0.209,1099,shenzhen,6.60,6.60
+"lenovo legion phone duel 3","mobiles","aluminum, carbon fiber",0.259,899,beijing,4.70,8.70
+"apple macbook pro 14 m4","laptops","aluminum",1.55,1599,cupertino,6.00,8.00
+"dell xps 14 9440","laptops","aluminum, carbon fiber",1.68,1899,austin,5.00,8.50
+"hp spectre x360 14","laptops","aluminum, recycled plastic",1.36,1399,"palo alto",6.00,6.75
+"lenovo thinkpad x1 carbon gen 12","laptops","carbon fiber, magnesium alloy",1.09,1799,morrisville,4.75,8.75
+"microsoft surface laptop 7 15""","laptops","aluminum, recycled plastic",1.66,1499,redmond,6.00,6.75
+"asus zenbook 14 oled um3406","laptops","aluminum, bioplastic (pla)",1.29,1099,taipei,7.00,5.00
+"acer swift go 14","laptops","plastic (abs, polycarbonate)",1.32,749,taipei,3.00,10.00
+"framework laptop 16","laptops","aluminum, recycled plastic",2.00,1399,"san francisco",6.50,5.50
+"razer blade 16","laptops","aluminum, carbon fiber",2.45,2799,irvine,4.50,9.00
+"lg gram 17 2025","laptops","magnesium alloy",1.35,1599,seoul,5.00,7.50
+"samsung galaxy book5 pro 360","laptops","aluminum, recycled plastic",1.48,1499,suwon,6.00,6.75
+"apple macbook air 15 m3","laptops","aluminum",1.51,1299,cupertino,6.00,8.00
+"huawei matebook x pro 2025","laptops","magnesium alloy, aluminum",0.98,1599,shenzhen,5.50,7.25
+"patagonia nano puff jacket","fashion","recycled polyester (rpet)",0.37,249,ventura,6.00,3.80
+"levi’s 501 original jeans","fashion","regular cotton",0.65,69,"san francisco",7.00,3.80
+"allbirds wool runner mizzles","fashion","wool",0.48,135,"san francisco",6.00,4.80
+"nike air force 1","fashion","leather, rubber (synthetic)",0.52,110,beaverton,5.40,7.20
+"adidas stan smith","fashion","recycled polyester (rpet), vegan leather (pu, pineapple, etc.)",0.44,100,hamburg,6.50,4.15
+"the north face thermoball jacket","fashion","recycled polyester (rpet)",0.42,220,"san francisco",6.00,3.80
+"h&m organic cotton t-shirt","fashion","organic cotton",0.18,12,stockholm,9.00,2.00
+"zara linen blend shirt","fashion","linen (flax)",0.28,45,madrid,8.00,2.20
+"gucci ace sneakers","fashion","leather",0.78,790,milan,5.00,8.00
+"everlane the track jogger","fashion","recycled polyester (rpet)",0.41,78,"san francisco",6.00,3.80
+"lululemon wunder train leggings","fashion","polyester",0.32,128,vancouver,4.00,6.50
+"reformation silk dress","fashion","silk",0.35,298,"los angeles",6.00,3.50
+"tentree bamboo hoodie","fashion","bamboo fiber, organic cotton",0.55,68,vancouver,9.00,2.25
+"birkenstock arizona eva","fashion","bioplastic (pla)",0.38,50,neustadt,8.00,3.50
+"veja campo sneakers","fashion","organic cotton, vegan leather (pu, pineapple, etc.)",0.49,150,paris,7.50,3.25
+"arcteryx beta ar jacket","fashion","recycled polyester (rpet), polyester",0.48,600,vancouver,5.00,5.15
+"lego duplo number train","kids & baby","recycled plastic",1.10,29,billund,6.00,5.00
+"green toys seaplane","kids & baby","recycled plastic",0.45,18,"san francisco",6.00,5.00
+"melissa & doug wooden puzzle","kids & baby","wood",0.68,15,denver,8.00,2.50
+"playmobil family camper","kids & baby","plastic (abs, polycarbonate)",1.45,69,zirndorf,3.00,10.00
+"fisher-price little people farm","kids & baby","plastic (abs, polycarbonate), silicone",1.20,44,"east aurora",5.00,7.00
+"plan toys wooden dollhouse","kids & baby","wood, fabric composite",4.50,149,bangkok,6.50,3.75
+"haba my first ball track","kids & baby","wood",1.80,89,"bad rodenbach",8.00,2.50
+"lovevery the realist set","kids & baby","organic cotton, wood",1.90,120,bozeman,8.50,2.25
+"manhattan toy tree top adventure","kids & baby","wood, fabric composite",2.20,99,minneapolis,7.00,3.75
+"vtech toot-toot drivers","kids & baby","plastic (abs, polycarbonate)",0.78,32,"hong kong",3.00,10.00
+"skip hop explore & more gym","kids & baby","polypropylene (pp), organic cotton",2.10,79,"new york",6.50,4.00
+"baby einstein discovery seas","kids & baby","recycled plastic, silicone",0.65,39,atlanta,6.50,4.75
+"dyson v15 detect","appliances","aluminum, plastic (abs, pvc)",3.08,699,malmesbury,4.50,9.00
+"ninja foodi max","appliances","stainless steel, recycled plastic",5.20,199,needham,6.65,6.15
+"instant pot pro crisp","appliances","stainless steel, plastic (abs, pvc)",6.30,169,boston,5.00,8.40
+"breville smart oven air fryer","appliances","stainless steel, ceramic",11.20,349,sydney,7.40,5.60
+"philips 4300 lattego","appliances","plastic (abs, pvc), stainless steel",7.60,799,amsterdam,4.35,9.20
+"smeg retro kettle","appliances","stainless steel, plastic (abs, pvc)",1.70,199,guastalla,5.00,8.40
+"le creuset dutch oven 5.3l","appliances","ceramic",5.50,380,"fresnoy-le-grand",8.00,4.00
+"zwilling air fryer","appliances","stainless steel, ceramic",4.80,149,solingen,7.40,5.60
+"nespresso vertuo next","appliances","recycled plastic",1.40,159,lausanne,6.00,5.50
+"balmuuda the toaster","appliances","stainless steel, glass",4.20,299,tokyo,6.50,6.90
+"vitamix explrian e310","appliances","plastic (abs, pvc), stainless steel",5.20,349,cleveland,5.00,8.40
+"delonghi dedica espresso","appliances","stainless steel, aluminum",4.20,249,milan,6.50,7.40
+"shark navigator vacuum","appliances","plastic (abs, pvc), recycled plastic",6.10,199,needham,4.75,8.25
+"bissell little green","appliances","recycled plastic, polypropylene (pp)",4.40,129,"grand rapids",5.00,5.75
+"miele complete c3","appliances","plastic (abs, pvc)",5.40,399,gütersloh,3.00,10.00
+"irobot roomba j7+","appliances","plastic (abs, pvc), recycled plastic",3.40,799,bedford,4.75,8.25
+"ecovacs deebot x2 omni","appliances","plastic (abs, pvc), silicone",5.60,1099,suzhou,3.50,9.00
+"patagonia better sweater","fashion","recycled polyester (rpet)",0.70,139,ventura,6.00,3.80
+"levi’s 511 slim jeans","fashion","regular cotton",0.60,89,"san francisco",7.00,3.80
+"allbirds tree runners","fashion","hemp",0.50,98,"san francisco",10.00,1.90
+"timberland 6-inch premium boot","fashion","leather, rubber (synthetic)",1.20,198,stratham,5.40,7.20
+"converse chuck taylor all star","fashion","organic cotton, rubber (natural)",0.70,65,north andover,8.50,2.60
+"dr. martens 1460","fashion","leather",1.10,170,wollaston,5.00,8.00
+"new balance 574","fashion","polyester, rubber (synthetic)",0.60,90,boston,4.60,6.30
+"puma suede classic","fashion","leather, vegan leather (pu, pineapple, etc.)",0.75,80,herzogenaurach,6.00,6.25
+"vans old skool","fashion","organic cotton, rubber (natural)",0.65,70,costa mesa,8.50,2.60
+"under armour hovr phantom","fashion","polyester, recycled polyester (rpet)",0.45,150,baltimore,5.00,5.15
+"columbia newton ridge boots","fashion","leather, recycled polyester (rpet)",1.00,100,portland,5.50,6.10
+"salomon speedcross 6","fashion","recycled polyester (rpet), rubber (synthetic)",0.55,140,annecy,5.00,5.15
+"merrell moab 3","fashion","leather, recycled polyester (rpet)",0.90,130,rockford,5.50,6.10
+"keen targhee iii","fashion","leather, recycled plastic",0.95,145,portland,5.75,6.38
+"teva hurricane xlt2","fashion","recycled plastic, rubber (natural)",0.60,75,goleta,7.00,4.10
+"crocs classic clog","fashion","bioplastic (pla)",0.30,50,nixa,8.00,3.50
+"ugg classic mini ii","fashion","wool, leather",0.70,160,goleta,5.50,6.40
+"clarks desert boot","fashion","leather",0.80,140,street,5.00,8.00
+"blundstone 550","fashion","leather",1.00,200,hobart,5.00,8.00
+"red wing iron ranger","fashion","leather",1.15,350,"red wing",5.00,8.00
+"north face osito jacket","fashion","recycled polyester (rpet)",0.50,110,"san francisco",6.00,3.80
+"carhartt wip detroit jacket","fashion","organic cotton",0.80,180,dearborn,9.00,2.00
+"filson tin cloth jacket","fashion","regular cotton, wax",1.10,350,seattle,7.00,3.80
+"barbour bedale wax jacket","fashion","regular cotton, wax",1.20,399,south shields,7.00,3.80
+"moncler maya jacket","fashion","polyester",0.90,1590,monestier-de-clermont,4.00,6.50
+"canada goose expedition parka","fashion","polyester, wool",2.50,1295,toronto,5.00,5.65
+"arcteryx atom hoody","fashion","recycled polyester (rpet)",0.38,300,vancouver,6.00,3.80
+"rab microlight alpine","fashion","recycled polyester (rpet)",0.47,275,derbyshire,6.00,3.80
+"mammut eigerjoch jacket","fashion","polyester",0.60,600,seon,4.00,6.50
+"peak performance frost down","fashion","recycled polyester (rpet)",0.70,450,stockholm,6.00,3.80
+"helly hansen odin jacket","fashion","recycled polyester (rpet)",0.55,400,oslo,6.00,3.80

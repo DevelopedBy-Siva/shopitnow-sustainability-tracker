@@ -5,6 +5,7 @@ from models import db
 from routes.recommend import recommend_bp
 from routes.insight import insight_bp
 from routes.cart import cart_bp
+from routes.predictor import predict_bp
 import os
 
 
@@ -30,6 +31,7 @@ def create_app():
     app.register_blueprint(recommend_bp, url_prefix="/api/sustainability")
     app.register_blueprint(insight_bp, url_prefix="/api/sustainability")
     app.register_blueprint(cart_bp, url_prefix="/api/sustainability")
+    app.register_blueprint(predict_bp, url_prefix="/api/sustainability")
     return app
 
 
