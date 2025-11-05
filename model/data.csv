@@ -1,0 +1,16 @@
+title,category,material,weight,price,origin_location,eco_score,emission_factor
+apple iphone 15 pro,mobiles,"aluminum, glass",0.19,999,cupertino,6.6,6.6
+samsung galaxy s24 ultra,mobiles,"aluminum, recycled plastic, glass",0.23,1199,san jose,6.4,6.2
+google pixel 8 pro,mobiles,"recycled plastic, glass",0.21,999,mountain view,6.5,5.35
+dell xps 13,laptops,"aluminum, carbon fiber",1.2,1199,austin,5.0,8.5
+apple macbook air m3,laptops,"aluminum, glass",1.24,1299,cupertino,6.5,6.6
+hp spectre x360,laptops,"aluminum, recycled plastic",1.4,1299,boston,6.0,6.75
+patagonia better sweater,fashion,recycled polyester (rpet),0.7,129,denver,6.0,3.8
+levi’s 511 jeans,fashion,regular cotton,0.6,89,san francisco,7.0,3.8
+allbirds tree runners,fashion,hemp,0.5,98,san francisco,10.0,1.9
+lego classic bricks box,kids & baby,recycled plastic,1.8,49,los angeles,6.0,5.0
+green toys dump truck,kids & baby,recycled plastic,1.2,34,san diego,6.0,5.0
+melissa & doug wooden blocks,kids & baby,wood,2.5,49,denver,8.0,2.5
+dyson purifier cool tp09,appliances,"aluminum, plastic (abs, pvc)",4.5,549,chicago,4.5,9.0
+ninja air fryer max xl,appliances,"recycled plastic, stainless steel",5.0,139,seattle,6.5,6.15
+instant pot duo,appliances,"stainless steel, plastic (abs, pvc)",4.2,129,boston,5.0,8.4
