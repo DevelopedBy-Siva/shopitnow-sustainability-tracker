@@ -21,7 +21,9 @@ def create_app():
     CORS(
         app,
         resources={
-            r"/*": {"origins": "*" if is_dev() else "https://shopit-now-1.onrender.com"}
+            r"/*": {
+                "origins": "*" if is_dev() else "https://shopit-now-client.vercel.app"
+            }
         },
     )
     app.config.from_object(Config)
