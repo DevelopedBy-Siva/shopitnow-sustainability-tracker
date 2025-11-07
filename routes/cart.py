@@ -116,7 +116,7 @@ def cart_optimize():
                 "current_total_kg": round(total_current_co2, 2),
                 "optimized_total_kg": round(total_optimized_co2, 2),
                 "total_saved_kg": round(total_saved, 2),
-                "impact_message": f"🤖 AI Optimizer: Switching suggested items can save {round(total_saved,2)} kg CO₂ 🌿",
+                "impact_message": f"Switching suggested items can save <b>{round(total_saved,2)} kg</b> CO₂",
             },
             "recommendations": optimized_cart,
         }

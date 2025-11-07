@@ -37,9 +37,9 @@ def get_product_insight():
         f"This product emits <b>{co2:.2f} kg</b> CO₂ per 100 km shipped — "
         f"<b>{abs(diff):.1f}%</b> {'cleaner' if diff>0 else 'higher'} than average. "
         + (
-            "🌱 Eco-conscious choice!"
+            "<span>🌱 Eco-conscious choice!</span>"
             if diff > 0
-            else "⚠️ Consider greener alternatives."
+            else "<span>⚠️ Consider greener alternatives.</span>"
         )
     )
 
